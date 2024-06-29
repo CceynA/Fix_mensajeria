@@ -1,0 +1,180 @@
+/* Reset CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo global del body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Clase contiene la barra lateral */
+.contains {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #EEEDEB;
+    border: 1px solid #45474B;
+    min-height: 100%;
+    width: 20em;
+    flex-direction: column;
+}
+
+/* Estilo de las tarjetas de inicio */
+.card-inicio {
+    border-top: 1px solid #45474B; /* Borde superior */
+    border-bottom: 1px solid #45474B; /* Borde inferior */
+    align-items: flex-start;
+    padding: 20px 0; /* Espacio interno arriba y abajo */
+    padding-left: 15px; /* Espacio a la izquierda */
+    padding-right: 15px; /* Espacio a la derecha */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto flotante */
+}
+
+/* Estilo de las tarjetas */
+.card {
+    align-items: flex-start;
+    padding: 20px 0; /* Espacio interno arriba y abajo */
+    padding-left: 15px; /* Espacio a la izquierda */
+    padding-right: 15px; /* Espacio a la derecha */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto flotante */
+}
+
+/* Clase para la disposición flex de los elementos */
+.orden-flex {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+/* Contenedor de la información del perfil */
+.profile-info {
+    margin-top: 15px;
+    margin-left: 7.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Estilo del estado */
+.estado {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+}
+
+/* Contenedor de iconos */
+.icons {
+    display: flex;
+    margin-left: 70px;
+}
+
+/* Clase para botones flexibles */
+.button-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto flotante */
+}
+
+/* Estilo de los botones */
+button {
+    margin: 20px 10px;
+    border-radius: 5px; /* Redondea las esquinas del botón */
+    border: 1px solid #9B86BD; /* Borde delgado */
+    background-color: #9B86BD;
+    color: #FDFFD2;
+    padding: 10px 20px; /* Añade espacio dentro del botón */
+    width: 200px; /* Ajusta el ancho del botón */
+    text-align: center; /* Centra el texto dentro del botón */
+}
+
+/* Estilo de las imágenes */
+img {
+    margin: 5px; /* Un margen uniforme alrededor de la imagen */
+    width: 50px; /* Ancho de la imagen */
+    height: 50px; /* Altura de la imagen para asegurar que sea un cuadrado */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente si no es cuadrada */
+    border: 1px solid #45474B; /* Borde de la imagen */
+}
+
+/* Clase contenedor principal */
+.master {
+    display: flex;
+    width: 100%;
+}
+
+/* Estilo del cuadro contenedor del icono */
+.cuadro {
+    margin: 10px;
+    border-radius: 10px; /* Redondea las esquinas del cuadro */
+    background-color: #9B86BD; /* Color de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Ajusta el ancho del cuadro según tu necesidad */
+    height: 200px; /* Ajusta la altura del cuadro según tu necesidad */
+    flex-shrink: 0; /* Asegura que el cuadro no se encoja */
+}
+
+/* Contenedor centrado */
+.cuerpocentrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9; /* Puedes ajustar el color de fondo según tus necesidades */
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+}
+
+/* Estilo de los encabezados h2 */
+h2 {
+    margin-top: 10px;
+    color: #333; /* Color del texto */
+    font-size: 2.5em; /* Tamaño del texto */
+    text-align: center; /* Centrar el texto */
+    font-family: fantasy;
+}
+
+/* Estilo de los iconos grandes */
+.icon-large {
+    font-size: 84px;
+    color: #f9f9f9;
+}
+
+/* Contenedor de contenido centrado */
+.content {
+    text-align: center;
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espacio interno alrededor del contenido */
+}
+
+/* Clase para centrar el texto */
+.textCenter {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* Ajusta la altura de línea para mejorar la legibilidad */
+}
+
+/* Estilo de los iconos */
+.icon {
+    margin: 10px;
+}
+
+/* Tamaños personalizados de los iconos */
+.icon-small {
+    font-size: 16px;
+}
+
+.icon-medium {
+    font-size: 32px;
+}
